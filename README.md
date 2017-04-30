@@ -15,20 +15,28 @@ Tabular data or more specifically csv is its main exchange data format of choice
 - Maps
 
 ## File Prefixes and Conventions
+
+### Names and File Prefixes
 - RAW = the collected, untreated data
 - EXT = the cleaned data, using the defined naming conventions
 - DATA = mappable data; data is a merge of the REF coming from the MAP and the EXT
+- MAP = map as geojson or topojson 
 - REF = The reference file contains ids and features of a map (e.g. county name)
 - META = metadata about the other files
 
-### Process:        
-- Raw > Ext  (tidy)
-- Map + Ref  
-- Ext + Ref = Data (merge)
-- Data > Data (transform)
+### Process       
+- RAW > EXT  (tidy)
+- MAP + REF  
+- EXT + REF = Data (merge)
+- DATA > DATA_vers2 (transform)
+
+### Versions
+If you have more than one EXT or DATA file, use versioning. 
+Ideally your final file is unversioned.
+
 
 ### File Naming Conventions
-- EXT: what_where_boundary_date, e.g. EXT_presidential_alameda_precinct_20161123.csv
+- EXT: what_where_boundary_date_ver2, e.g. EXT_presidential_alameda_precinct_20161123_vers2.csv (if more than one, add vers2, vers3 etc.)
 - REF: where_boundary_data, e.g. REF_alameda_precinct_20161102.csv
 
 ## Election Results and the Minimal Set
