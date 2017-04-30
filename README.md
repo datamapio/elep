@@ -19,6 +19,7 @@ Tabular data or more specifically csv is its main exchange data format of choice
 - EXT = the cleaned data, using the defined naming conventions
 - DATA = mappable data; data is a merge of the REF coming from the MAP and the EXT
 - REF = The reference file contains ids and features of a map (e.g. county name)
+- META = metadata about the other files
 
 ###Process:        
 - Raw > Ext  (tidy)
@@ -26,12 +27,17 @@ Tabular data or more specifically csv is its main exchange data format of choice
 - Ext + Ref = Data (merge)
 - Data > Data (transform)
 
-###File Naming Conventions
+### File Naming Conventions
 - EXT: what_where_boundary_date, e.g. EXT_presidential_alameda_precinct_20161123.csv
 - REF: where_boundary_data, e.g. REF_alameda_precinct_20161102.csv
 
 ## Election Results and the Minimal Set
-###From RAW to EXT
+### From RAW to EXT
+
+## Candidates and Parties
+TO DO
+See [FEC Raw data](https://github.com/datamapio/elep/tree/master/us)
+
 
 ###DATA: From Votes to Percentages
 
@@ -74,8 +80,6 @@ PS:
 
 [Quantize/Threshold Choropleth](https://bl.ocks.org/mbostock/4060606)        
 [Quantile Choropleth](https://bl.ocks.org/mbostock/8ca036b3505121279daf)
-
-
 
 
 
