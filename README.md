@@ -14,16 +14,29 @@ Tabular data or more specifically csv is its main exchange data format of choice
 - Polling Stations
 - Maps
 
-
-### Election Results and the Minimal Set
-
-
-
-## Raw > Ext | Ref | Ext + Ref > Data 
+## File Prefixes and Conventions
 - RAW = the collected, untreated data
 - EXT = the cleaned data, using the defined naming conventions
 - DATA = mappable data; data is a merge of the REF coming from the MAP and the EXT
-- REF = Features of a Map, plus a global id for a polygon
+- REF = The reference file contains ids and features of a map (e.g. county name)
+
+###Process:        
+- Raw > Ext  (tidy)
+- Map + Ref  
+- Ext + Ref = Data (merge)
+- Data > Data (transform)
+
+###File Naming Conventions
+- EXT: what_where_boundary_date, e.g. EXT_presidential_alameda_precinct_20161123.csv
+- REF: where_boundary_data, e.g. REF_alameda_precinct_20161102.csv
+
+## Election Results and the Minimal Set
+###From RAW to EXT
+
+###DATA: From Votes to Percentages
+
+
+
 
 
 ### Color
@@ -72,5 +85,8 @@ PS:
 - Do elections reflect the political climate accurately?
 - How representative are elections?
 
+              
+
+[@datamapio](https://twitter.com/datamapio)
 
 
