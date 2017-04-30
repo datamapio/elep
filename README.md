@@ -14,28 +14,33 @@ Tabular data or more specifically csv is its main exchange data format of choice
 - Polling Stations
 - Maps
 
-## RAW, EXT, DATA
-- RAW = the collected, untreated data
-- EXT = the cleaned data, using the defined naming conventions
-- DATA = mappable data
 
 ### Election Results and the Minimal Set
 
 
 
+## Raw > Ext | Ref | Ext + Ref > Data 
+- RAW = the collected, untreated data
+- EXT = the cleaned data, using the defined naming conventions
+- DATA = mappable data; data is a merge of the REF coming from the MAP and the EXT
+- REF = Features of a Map, plus a global id for a polygon
 
+
+### Color
 
 ### Map the Election Result (Domain) to Color (Range)
+
+If you want to map the results in your csv on a map, you typically use a scale. 
 
 Result = candidate / valid * 100     
 Color = candidate color     
 
-#### Domain Example (Result in Percentages) 
+#### Result in Percentages (Domain)
 ```
 .domain([0,40,45,50,55,60,100]);
 ```
     
-#### Range Example (Color)
+#### Color (Range)
 ```
 .range(['#f3d7d0','#e3afa3','#d18978','#bc634f','#a53c28','#8b0000']);
 ```
