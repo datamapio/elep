@@ -15,4 +15,4 @@
 ## Party
 
 ### Links
-- http://www.fec.gov/finance/disclosure/metadata/DataDictionaryPartyCodeDescriptions.shtml 
+- http://www.fec.gov/finance/disclosure/metadata/DataDictionaryPartyCodeDescriptions.shtml

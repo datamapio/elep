@@ -21,7 +21,7 @@ Tabular data or more specifically csv is its main exchange data format of choice
 - REF = The reference file contains ids and features of a map (e.g. county name)
 - META = metadata about the other files
 
-###Process:        
+### Process:        
 - Raw > Ext  (tidy)
 - Map + Ref  
 - Ext + Ref = Data (merge)
@@ -35,8 +35,11 @@ Tabular data or more specifically csv is its main exchange data format of choice
 ### From RAW to EXT
 
 ## Candidates and Parties
-TO DO
-See [FEC Raw data](https://github.com/datamapio/elep/tree/master/us)
+###Candidates
+TO DO            
+One use of candidate information can be seen [here](https://elections.datamap.io/us/2016/primaries/states/california/democrats)                              
+See [FEC Raw data](https://github.com/datamapio/elep/tree/master/us)              
+###Parties
 
 
 ###DATA: From Votes to Percentages
