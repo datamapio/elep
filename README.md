@@ -29,17 +29,19 @@ Tabular data or more specifically csv is its main exchange data format of choice
 
 Result = candidate / valid * 100     
 Color = candidate color     
+
+#### Domain Example (Result in Percentages) 
+```
+.domain([0,40,45,50,55,60,100]);
+```
     
-#### Range Example (Colors)
+#### Range Example (Color)
 ```
 .range(['#f3d7d0','#e3afa3','#d18978','#bc634f','#a53c28','#8b0000']);
 ```
 Based on [Red Palette](https://gka.github.io/palettes/#colors=white,darkred|steps=7|bez=1|coL=1)
 
-#### Domain Example (Percentages) 
-```
-.domain([0,40,45,50,55,60,100]);
-```
+
 #### Domain to Range Mapping with scaleThreshold (d3.js)
 ```
 var color = d3.scaleThreshold()
