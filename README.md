@@ -34,15 +34,18 @@ Tabular data or more specifically csv is its main exchange data format of choice
 ## Election Results and the Minimal Set
 ### From RAW to EXT
 
+### DATA: From Votes to Percentages
+
+
 ## Candidates and Parties
-###Candidates
+### Candidates
 TO DO            
 One use of candidate information can be seen [here](https://elections.datamap.io/us/2016/primaries/states/california/democrats)                              
 See [FEC Raw data](https://github.com/datamapio/elep/tree/master/us)              
-###Parties
+### Parties
 
 
-###DATA: From Votes to Percentages
+
 
 
 
