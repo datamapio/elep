@@ -19,7 +19,6 @@ Tabular data or more specifically csv is its main exchange data format of choice
 - EXT = the cleaned data, using the defined naming conventions
 - DATA = mappable data
 
-
 ### Election Results and the Minimal Set
 
 
@@ -35,7 +34,7 @@ Color = candidate color
 ```
 .range(['#f3d7d0','#e3afa3','#d18978','#bc634f','#a53c28','#8b0000']);
 ```
-Based on (Red Palette)[https://gka.github.io/palettes/#colors=white,darkred|steps=7|bez=1|coL=1]
+Based on [Red Palette](https://gka.github.io/palettes/#colors=white,darkred|steps=7|bez=1|coL=1)
 
 #### Domain Example (Percentages) 
 ```
@@ -51,16 +50,16 @@ var color = d3.scaleThreshold()
 
 
 PS:
-(Threshold scales)[https://github.com/d3/d3-scale/blob/master/README.md#threshold-scales] are similar to quantize scales, except they allow you to map arbitrary subsets of the domain to discrete values in the range. The input domain is still continuous, and divided into slices based on a set of threshold values. 
+[Threshold scales](https://github.com/d3/d3-scale/blob/master/README.md#threshold-scales) are similar to quantize scales, except they allow you to map arbitrary subsets of the domain to discrete values in the range. The input domain is still continuous, and divided into slices based on a set of threshold values. 
 
-Quantize/Threshold Choropleth: https://bl.ocks.org/mbostock/4060606        
-Quantile Choropleth: https://bl.ocks.org/mbostock/8ca036b3505121279daf
-
-
+[Quantize/Threshold Choropleth](https://bl.ocks.org/mbostock/4060606)        
+[Quantile Choropleth](https://bl.ocks.org/mbostock/8ca036b3505121279daf)
 
 
 
-##What do we really want to know?
+
+
+## What do we really want to know?
 - What is the current political climate and why?
 - Where do the candidates and parties stand?
 - Do elections reflect the political climate accurately?
