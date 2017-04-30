@@ -51,9 +51,9 @@ See [FEC Raw data](https://github.com/datamapio/elep/tree/master/us)
 
 
 
-### Color
+## Color
 
-### Map the Election Result (Domain) to Color (Range)
+### Example: Map the Election Result (Domain) to Color (Range)
 
 If you want to map the results in your csv on a map, you typically use a scale. 
 
