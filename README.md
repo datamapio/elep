@@ -103,6 +103,11 @@ PS:
 - Do elections reflect the political climate accurately?
 - How representative are elections?
 
+
+##Going Further
+- Sortition vs Election: [A Citizen Legislature](https://www.well.com/~mp/citleg.html) / [Against Elections](https://www.amazon.com/Against-Elections-David-Van-Reybrouck/dp/1847924220/)
+- [Different Election Systems](http://ncase.me/ballot/)
+- [Pattern of Democracy: Majoritarian vs Consensus Democracy](http://wikisum.com/w/Lijphart:_Patterns_of_democracy) 
               
 
 [@datamapio](https://twitter.com/datamapio)
