@@ -39,7 +39,7 @@ Ideally your final file is unversioned.
 - EXT + REF = Data (merge)
 - DATA > DATA_vers2 (transform)
 
-###Tools
+### Tools
 [R Cheatsheet](https://github.com/datamapio/story/blob/master/cheatsheet/r_cheatsheet.md)
 
 
@@ -57,7 +57,10 @@ See [FEC Raw data](https://github.com/datamapio/elep/tree/master/us)
 ### Parties
 
 
+## Positioning / Compass
 
+See also:
+[Vote Compass Methodology ](http://voxpoplabs.com/votecompass/methodology.pdf)
 
 
 
