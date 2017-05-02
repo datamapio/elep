@@ -40,13 +40,13 @@ If you have more than one EXT or DATA file, try to describe it.
   e.g. REF_alameda_precinct_20161102.csv       
 
 ## Process & Tools    
-- RAW > EXT  (tidy)
+- RAW => EXT  (tidy)
 - MAP + REF  
-- EXT + REF = Data (merge)
-- DATA > DATAT (transform)
+- EXT + REF => DATA (merge)
+- DATA => DATAT (transform)
 
 ### Tools
-[R Cheatsheet](https://github.com/datamapio/story/blob/master/cheatsheet/r_cheatsheet.md)
+[R Cheatsheet](https://github.com/datamapio/story/blob/master/cheatsheet/r_cheatsheet.md)               
 [Tidyr vs Reshape2: from wide to long format](http://www.milanor.net/blog/reshape-data-r-tidyr-vs-reshape2/)
 
 
@@ -54,22 +54,29 @@ If you have more than one EXT or DATA file, try to describe it.
 ### The Minimal Set
 [Minimal Set Definitions](https://medium.com/@datamapio/a-common-vocabulary-for-elections-608372f12f64)
 
-### From RAW to EXT
-
-### REF + EXT = DATA
-
-### From DATA to DATAT: From Votes to Percentages
 
 
 ## Candidates and Parties
-### Candidates
-TO DO            
+### Candidates  
+TO DEFINE           
 One use of candidate information can be seen [here](https://elections.datamap.io/us/2016/primaries/states/california/democrats)                              
 See [FEC Raw data](https://github.com/datamapio/elep/tree/master/us)              
 ### Parties
+TO DEFINE     
+
+##Color Schemes
 
 
 ## Positioning / Compass
+x from -1 to 1, y from -1 to 1; increments of 0.1 or 0.2   
+               
+Example:
+```
+candidate, x, y, date
+sanders, -0.8, 0.6, 20160620
+```
+
+
 
 See also:
 [Vote Compass Methodology ](http://voxpoplabs.com/votecompass/methodology.pdf)
