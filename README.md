@@ -4,7 +4,8 @@ The Election Project (Elep) is the attempt to create a global nomenclature and m
 Tabular data or more specifically csv is its main exchange data format of choice.
 
 ## Slides
-Upcoming...    
+[Election Project Slides](https://www.slideshare.net/rogerfischer3990/election-project-elep)      
+At [csv,conf,v3](https://csvconf.com/), Portland   
 
 ## Modules
 - Election Results (ongoing, see the Minimal Set)
@@ -40,14 +41,14 @@ If you have more than one EXT or DATA file, try to describe it.
   e.g. REF_alameda_precinct_20161102.csv       
 
 ## Process & Tools    
-- RAW => EXT  (tidy)
+- RAW => EXT  (clean, wrangle)
 - MAP + REF  
 - EXT + REF => DATA (merge)
 - DATA => DATAT (transform)
 
 ### Tools
 [R Cheatsheet](https://github.com/datamapio/story/blob/master/cheatsheet/r_cheatsheet.md)               
-[Tidyr vs Reshape2: from wide to long format](http://www.milanor.net/blog/reshape-data-r-tidyr-vs-reshape2/)
+[Tidyr vs Reshape2: wide to long format and vice versa](http://www.milanor.net/blog/reshape-data-r-tidyr-vs-reshape2/)
 
 
 ## Election Results and the Minimal Set
