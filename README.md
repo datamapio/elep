@@ -30,14 +30,14 @@ Upcoming...
 
 ### Versions
 If you have more than one EXT or DATA file, try to describe it.
-Your final default file should be unversioned.
 
-### File Naming Conventions
-- EXT: what_where_boundary_date_ver2    
-  e.g. EXT_presidential_alameda_precinct_20161123.csv
-       EXT_presidential_vbm_alameda_precinct_20161123.csv
+### File Naming Conventions      
+- EXT: what_where_boundary_date       
+  e.g. EXT_president_alameda_precinct_20161123.csv               
+       EXT_president_vbm_alameda_precinct_20161123.csv           
 
-- REF: where_boundary_data, e.g. REF_alameda_precinct_20161102.csv
+- REF: where_boundary_data          
+  e.g. REF_alameda_precinct_20161102.csv       
 
 ## Process & Tools    
 - RAW > EXT  (tidy)
