@@ -121,7 +121,7 @@ sanders, -0.8, 0.6, 20160620
 ```
 
 See also:
-[Vote Compass Methodology ](http://voxpoplabs.com/votecompass/methodology.pdf)
+[Vote Compass Methodology  from Vox Pop Labs](http://voxpoplabs.com/votecompass/methodology.pdf)
 
 
 
