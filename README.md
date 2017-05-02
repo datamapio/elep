@@ -4,7 +4,7 @@ The Election Project (Elep) is the attempt to create a global nomenclature and m
 Tabular data or more specifically csv is its main exchange data format of choice.
 
 ## Slides
-[Election Project Slides](https://www.slideshare.net/rogerfischer3990/election-project-elep)      
+[Election Project Slides](https://www.slideshare.net/rogerfischer3990/election-project-elep-75613205)      
 At [csv,conf,v3](https://csvconf.com/), Portland   
 
 ## Election Results and the Minimal Set
