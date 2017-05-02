@@ -3,16 +3,19 @@
 The Election Project (Elep) is the attempt to create a global nomenclature and modular system for elections. 
 Tabular data or more specifically csv is its main exchange data format of choice.
 
+## Slides
+Upcoming...    
+
 ## Modules
-- Election Results (csv)
+- Election Results (ongoing, see the Minimal Set)
+- Polling Stations
 - Candidates
 - Parties
 - Vendors of Electronic Voting Hardware
 - Local Color Schemes
 - One Global Color Scheme 
 - Positioning Compass 
-- Polling Stations
-- Maps
+- Maps (ongoing)
 
 ## File Prefixes and Conventions
 
@@ -20,33 +23,42 @@ Tabular data or more specifically csv is its main exchange data format of choice
 - RAW = the collected, untreated data
 - EXT = the cleaned data, using the defined naming conventions
 - DATA = mappable data; data is a merge of the REF coming from the MAP and the EXT
+- DATAT = DATA with further transformations (e.g. candidate_pct)
 - MAP = map as geojson or topojson 
 - REF = The reference file contains ids and features of a map (e.g. county name)
 - META = metadata about the other files
 
-
 ### Versions
-If you have more than one EXT or DATA file, use versioning. 
-Ideally your final file is unversioned.
+If you have more than one EXT or DATA file, try to describe it.
+Your final default file should be unversioned.
 
 ### File Naming Conventions
-- EXT: what_where_boundary_date_ver2, e.g. EXT_presidential_alameda_precinct_20161123_vers2.csv (if more than one, add vers2, vers3 etc.)
+- EXT: what_where_boundary_date_ver2    
+  e.g. EXT_presidential_alameda_precinct_20161123.csv
+       EXT_presidential_vbm_alameda_precinct_20161123.csv
+
 - REF: where_boundary_data, e.g. REF_alameda_precinct_20161102.csv
 
 ## Process & Tools    
 - RAW > EXT  (tidy)
 - MAP + REF  
 - EXT + REF = Data (merge)
-- DATA > DATA_vers2 (transform)
+- DATA > DATAT (transform)
 
 ### Tools
 [R Cheatsheet](https://github.com/datamapio/story/blob/master/cheatsheet/r_cheatsheet.md)
+[Tidyr vs Reshape2: from wide to long format](http://www.milanor.net/blog/reshape-data-r-tidyr-vs-reshape2/)
 
 
 ## Election Results and the Minimal Set
+### The Minimal Set
+[Minimal Set Definitions](https://medium.com/@datamapio/a-common-vocabulary-for-elections-608372f12f64)
+
 ### From RAW to EXT
 
-### DATA: From Votes to Percentages
+### REF + EXT = DATA
+
+### From DATA to DATAT: From Votes to Percentages
 
 
 ## Candidates and Parties
@@ -76,6 +88,7 @@ Result = candidate / valid * 100
 Color = candidate color     
 
 #### Result in Percentages (Domain)
+Up to 40% | 40-45% | 45-50% | 50-55% | 55-60% | Over 60%
 ```
 .domain([0,40,45,50,55,60,100]);
 ```
@@ -96,11 +109,12 @@ var color = d3.scaleThreshold()
 
 
 
-PS:
+Note:       
 [Threshold scales](https://github.com/d3/d3-scale/blob/master/README.md#threshold-scales) are similar to quantize scales, except they allow you to map arbitrary subsets of the domain to discrete values in the range. The input domain is still continuous, and divided into slices based on a set of threshold values. 
 
 [Quantize/Threshold Choropleth](https://bl.ocks.org/mbostock/4060606)        
 [Quantile Choropleth](https://bl.ocks.org/mbostock/8ca036b3505121279daf)
+
 
 
 
