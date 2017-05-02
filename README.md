@@ -65,7 +65,9 @@ See [FEC Raw data](https://github.com/datamapio/elep/tree/master/us)
 ### Parties
 TO DEFINE     
 
-##Color Schemes
+## Color Schemes / Color Compass
+![red-blue color compass](https://raw.githubusercontent.com/datamapio/elep/master/images/color_space_with_red_blue_brewer_scales.png)
+![subjective color compass](https://raw.githubusercontent.com/datamapio/elep/master/images/color_square_version3.png)
 
 
 ## Positioning / Compass
