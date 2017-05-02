@@ -65,26 +65,6 @@ See [FEC Raw data](https://github.com/datamapio/elep/tree/master/us)
 ### Parties
 TO DEFINE     
 
-## Color Schemes / Color Compass
-![red-blue color compass](https://raw.githubusercontent.com/datamapio/elep/master/images/color_space_with_red_blue_brewer_scales.png)
-![subjective color compass](https://raw.githubusercontent.com/datamapio/elep/master/images/color_square_version3.png)
-
-
-## Positioning / Compass
-x from -1 to 1, y from -1 to 1; increments of 0.1 or 0.2   
-               
-Example:
-```
-candidate, x, y, date
-sanders, -0.8, 0.6, 20160620
-```
-
-
-
-See also:
-[Vote Compass Methodology ](http://voxpoplabs.com/votecompass/methodology.pdf)
-
-
 
 
 
@@ -124,6 +104,25 @@ Note:
 
 [Quantize/Threshold Choropleth](https://bl.ocks.org/mbostock/4060606)        
 [Quantile Choropleth](https://bl.ocks.org/mbostock/8ca036b3505121279daf)
+
+
+## Color Schemes / Color Compass
+![red-blue color compass](https://raw.githubusercontent.com/datamapio/elep/master/images/color_space_with_red_blue_brewer_scales.png)
+![subjective color compass](https://raw.githubusercontent.com/datamapio/elep/master/images/color_square_version3.png)
+
+
+## Positioning / Compass
+x from -1 to 1, y from -1 to 1; increments of 0.1 or 0.2   
+               
+Example:
+```
+candidate, x, y, date
+sanders, -0.8, 0.6, 20160620
+```
+
+See also:
+[Vote Compass Methodology ](http://voxpoplabs.com/votecompass/methodology.pdf)
+
 
 
 
