@@ -7,6 +7,11 @@ Tabular data or more specifically csv is its main exchange data format of choice
 [Election Project Slides](https://www.slideshare.net/rogerfischer3990/election-project-elep)      
 At [csv,conf,v3](https://csvconf.com/), Portland   
 
+## Election Results and the Minimal Set
+### The Minimal Set
+[Minimal Set Definitions](https://medium.com/@datamapio/a-common-vocabulary-for-elections-608372f12f64)
+
+
 ## Modules
 - Election Results (ongoing, see the Minimal Set)
 - Polling Stations
@@ -30,7 +35,7 @@ At [csv,conf,v3](https://csvconf.com/), Portland
 - META = metadata about the other files
 
 ### Versions
-If you have more than one EXT or DATA file, try to describe it.
+If you have more than one EXT or DATA file, describe it.
 
 ### File Naming Conventions      
 - EXT: what_where_boundary_date       
@@ -51,11 +56,6 @@ If you have more than one EXT or DATA file, try to describe it.
 [Tidyr vs Reshape2: wide to long format and vice versa](http://www.milanor.net/blog/reshape-data-r-tidyr-vs-reshape2/)
 
 
-## Election Results and the Minimal Set
-### The Minimal Set
-[Minimal Set Definitions](https://medium.com/@datamapio/a-common-vocabulary-for-elections-608372f12f64)
-
-
 
 ## Candidates and Parties
 ### Candidates  
@@ -64,8 +64,6 @@ One use of candidate information can be seen [here](https://elections.datamap.io
 See [FEC Raw data](https://github.com/datamapio/elep/tree/master/us)              
 ### Parties
 TO DEFINE     
-
-
 
 
 ## Color
