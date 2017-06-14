@@ -14,6 +14,7 @@ At [csv,conf,v3](https://csvconf.com/), Portland
 
 ## Modules
 - Election Results (ongoing, see the Minimal Set)
+- Seats (incl. Electoral College), Seats are derived from Election Results and defined according to specific rules 
 - Polling Stations
 - Candidates
 - Parties
