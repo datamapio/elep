@@ -29,7 +29,7 @@ At [csv,conf,v3](https://csvconf.com/), Portland
 ### Names and File Prefixes
 - RAW = the collected, untreated data
 - EXT = the cleaned data, using the defined naming conventions
-- DATA = mappable data; data is a merge of the REF coming from the MAP and the EXT
+- DATAM = mappable data; data is a merge of the REF coming from the MAP and the EXT
 - DATAT = DATA with further transformations (e.g. candidate_pct)
 - MAP = map as geojson or topojson 
 - REF = The reference file contains ids and features of a map (e.g. county name)
@@ -49,7 +49,7 @@ If you have more than one EXT or DATA file, describe it.
 ## Process & Tools    
 - RAW => EXT  (clean, wrangle)
 - MAP + REF  
-- EXT + REF => DATA (merge)
+- EXT + REF => DATAM (merge)
 - DATA => DATAT (transform)
 
 ### Tools
